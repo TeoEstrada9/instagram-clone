@@ -1,0 +1,506 @@
+/* Body Style */
+
+
+body, html {
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 150px;
+     
+}
+/* Phone image */
+img {
+    width: 400px;
+    height: 635px;
+    border: none;
+    margin-left: 12em;
+    margin-top: 1em;
+   
+}
+
+.phone__Container {
+    margin-right: 35px;
+    margin-top: -40px;
+}
+
+/* Sign-up field */
+.sign-up {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 450px;
+    width: 400px;
+    border-radius: 2px;   
+    align-content: left;
+    margin-top: 41px;
+}
+
+/* Forgot Password Field */
+.forgot-password {
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    text-decoration: none;
+    color: #1d3557;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*#facebook-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: #003566;
+    font-weight: bolder;   
+}
+*/
+
+.little-box {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 400px;
+    height: 60px;
+    margin-top: 15px;
+
+}
+
+#Insta-title {
+    width: 175px;
+    height: 63px;
+    margin-right: 185px;
+    margin-top: 50px;
+    
+}
+
+button {
+    background-color: #4AA6E8;
+    padding: 10px 130px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/* Sign up inputs */
+
+.username-input {
+    
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: start;
+    cursor: pointer;
+    text-align: left;
+    width: 70%;
+    height: 20%;  
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(250, 250, 250);
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    font-size: 15px;
+   
+}
+
+
+
+.password-input {
+    margin-bottom: 2px;
+    text-align: left;
+    cursor: pointer;
+    width: 70%;
+    height: 17%;
+    background-color: rgb(250, 250, 250);
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgb(219, 219, 219);
+    font-size: 15px;
+    color: rgb(38, 38, 38);
+
+
+   
+    
+
+}
+
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* little box info */
+
+.Account-none {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Sign-up2 {
+    text-decoration: none;
+    color: #4AA6E8;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Download buttons */
+
+.apple-btn, .google-btn {
+    width: 150px;
+    height: 45px;
+    margin-top: 2px;
+}
+.apple-btn{
+    margin-left: 45px;
+}
+.google-btn {
+    margin-left: 2px;
+}
+
+
+.facebooklogin-option {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.facebook-link {
+    color: #4267B2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    margin-right: 50px;
+}
+
+
+   
+
+
+/* Facebook and other options for Signup */ 
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+    padding-right: 5px;
+    margin-bottom: 16px;
+}
+
+/* Get app Text */
+.get-app {
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+/* Targeting all elements */
+
+.box-container {
+    margin-top: -30px;
+   
+    
+
+}
+
+/* Footer DropDown menu */
+.footer-img {
+    width: 250px;
+    height: 25px;
+   margin-left: 600px;
+   cursor: pointer;
+   
+}
+
+
+/* Divider Section */
+
+/*.or-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 18px;
+    width: 76%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    color: #767A7F;
+    font-weight: bolder;
+   
+}
+
+.or-option .or {
+    margin: 0 18px;
+    color: #767A7F;
+    font-size: 16px;
+    font-weight: bolder;
+   
+    
+}
+
+.divider {
+    width: 100%;
+    height: 1.5px;
+    border: none;
+    background-color: #E0E0E0;
+    
+
+}
+*/
+
+
+/* Footer infomation */
+
+.footer-column {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #6c757d;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    font-size: small;
+    flex-wrap: wrap;    
+    text-decoration: none;
+    margin-top: 42px;
+    
+}
+
+#footer-lang-menu {
+    width: 220px;
+    height: 25px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 612px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+
+}
+
+    /* Hover States for footer */
+.list-item1:hover, .list-item2:hover, .list-item3:hover, .list-item4:hover, .list-item5:hover, .list-item6:hover, 
+.list-item7:hover, .list-item8:hover, .list-item9:hover, .list-item10:hover, .list-item11:hover, .list-item12:hover {
+    text-decoration: underline;
+    color: #6c757d
+}
+
+.list-item1, .list-item2, .list-item3, .list-item4, .list-item5, .list-item6, .list-item7, .list-item8, .list-item9,
+.list-item10, .list-item11, .list-item12 {
+    padding-right: 23px;
+}
+
+.or-divider {
+    width: 300px;
+    height: 20px;
+    margin-left: -2px;
+}
+
+
+
+@media only screen and (max-width: 865px) {
+    /* img {
+        display: none;
+
+    } */
+
+    #phone-container {
+        display: none;
+    }
+    
+    #footer-lang-menu {
+        display: flex;
+        display: flex;
+        justify-content: center;
+        margin-left: 305px;
+        
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+    }
+    .box-container {
+        margin-left: 165px;
+        margin-top: 120px;
+        
+
+    }
+
+    .footer-column {
+        margin-top: 194px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0.5px;
+    }
+
+    .facebook-icon {
+       display: flex;
+       justify-content: center;
+    }
+
+
+    .apple-btn, .google-btn {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+
+}
+img > .or-divider {
+    margin-right: 600px;
+    margin-top: 500px;
+    width: 20px;
+    height: 20px;
+}
+
+#Insta-title {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.list-item1:hover, .list-item2:hover, .list-item3:hover, .list-item4:hover, .list-item5:hover, .list-item6:hover, 
+.list-item7:hover, .list-item8:hover, .list-item9:hover, .list-item10:hover, .list-item11:hover, .list-item12:hover {
+    text-decoration: underline;
+    color: #6c757d
+}
+
+
+
+
+.google-btn {
+    margin-left: 204px;
+    margin-top: -45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username-input, .password-input {
+    height: 7%;
+   
+}
+.get-app {
+    margin-bottom: 10px;
+}
+
+.facebooklogin-option {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 440px) {
+
+    .footer-column {
+       word-spacing: 2px;
+       margin-top: 60px;
+    }
+    #footer-lang-menu {
+        margin-left: 107px;
+    }
+    .google-btn {
+        margin-top: -45px;
+        margin-right: 0.25em;
+    }
+    .apple-btn, .google-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .little-box {
+        box-sizing: none;
+        border: none;
+        background-color: transparent;
+        margin-top: 30px;
+        margin-top: -40px;
+        margin-bottom: 37px;
+    }
+
+    .sign-up, .box-container {
+        background-color: transparent;
+        border: none;
+        margin-top: 73px;
+        
+        
+    }
+    .box-container {
+        margin-top: -12px;
+        margin-right: 8px;
+    }
+    #Insta-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 189px;
+        margin-bottom: 0px;
+        margin-top: -48px;
+        width: 223px;
+        height: 76px;
+       
+    }
+
+    .or-divider {
+        margin-left: -6px;
+        margin-bottom: 444px;
+    }
+
+    .facebooklogin-option {
+        margin-top: -438px;
+    }
+
+    .forgot-password {
+        margin-top: 1px;
+    }
+    .Account-none {
+        margin-top: -11px;
+    }
+
+
+    .list-item1:hover, .list-item2:hover, .list-item3:hover, .list-item4:hover, .list-item5:hover, .list-item6:hover, 
+.list-item7:hover, .list-item8:hover, .list-item9:hover, .list-item10:hover, .list-item11:hover, .list-item12:hover {
+    text-decoration: underline;
+    color: #6c757d
+}
+
+   
+   
+}
+
+
+
+
+
+
+
